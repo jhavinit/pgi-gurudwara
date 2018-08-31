@@ -1,0 +1,23 @@
+#signDiv{
+    visibility:hidden;
+  }
+#SignBody{
+	background-color:#f6f6f6;
+}
+#SignHead{
+	padding-left: 0px;
+	padding-right: 0px; 
+}
+#jb{ background-color: #f4511e;
+      color: #fff;
+      padding: 100px 25px;
+      font-family: Montserrat, sans-serif;
+  }
+#tagTogg{
+	margin-left:50px;
+	margin-top: 20px;
+}
+
+#printDiv{
+  visibility: hidden;
+}

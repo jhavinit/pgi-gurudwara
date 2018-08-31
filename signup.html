@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Sign Up Page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+  <script src="js/bootstrap.min.js"></script>
+  <script src="jquery-3.3.1.js"></script>
+</head>
+
+<body id="SignBody">
+
+
+<div class="container-fluid" id="SignHead"><div class="jumbotron" id="jb"><center><h1>PGI GURUDWARA</h1>
+<p><br>Free food and accomodation for the needy</p></center></div></div>
+
+<div class="container">
+ <div class="row">
+ <div class="col-sm-6">
+   <h1 style="color: green">SIGN UP FORM</h1><br>
+   <form class="form-horizontal" action="signup.php" method="POST">
+    
+   
+    <div class="form-group">  
+      <label class="control-label col-sm-4" for="userName">User Name:</label>
+      <div class="col-sm-5">
+        <input type="text" class="form-control" placeholder="Enter User Name" name="name" id="userName">
+      </div>
+    </div>
+    
+     <div class="form-group">
+      <label class="control-label col-sm-2" for="pwd">Password:</label>
+      <div class="col-sm-5">          
+        <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="psw">
+      </div>
+    </div>
+    <div class="form-group">        
+      <div class="col-sm-offset-2 col-sm-10">
+        <div class="checkbox">
+          <label><input type="checkbox" name="remember">&nbsp &nbsp Remember me</label>
+        </div>
+      </div>
+    </div>
+    <div class="form-group">        
+      <div class="col-sm-offset-2 col-sm-10">
+        <button type="submit" class="btn btn-success">Submit</button>
+      </div>
+    </div>
+  </form>
+</div>
+
+<div class="col-sm-6">
+<img src="pgiImg.jpg" class="img-thumbnail" class="img-responsive">
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
